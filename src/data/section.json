@@ -773,27 +773,27 @@
 			"singleParner": [
 				{
 					"partnerLink": "#!",
-					"partnerImage": "assets/images/home1/brand/brand-logo1.png",
+					"partnerImage": "assets/images/home1/brand/Partner1.png",
 					"animation": "fadeInRight"
 				},
 				{
 					"partnerLink": "#!",
-					"partnerImage": "assets/images/home1/brand/brand-logo2.png",
+					"partnerImage": "assets/images/home1/brand/Partner6.png",
 					"animation": "fadeInUp"
 				},
 				{
 					"partnerLink": "#!",
-					"partnerImage": "assets/images/home1/brand/brand-logo3.png",
+					"partnerImage": "assets/images/home1/brand/Partner3.jpg",
 					"animation": "fadeInUp"
 				},
 				{
 					"partnerLink": "#!",
-					"partnerImage": "assets/images/home1/brand/brand-logo4.png",
+					"partnerImage": "assets/images/home1/brand/Partner4.jpg",
 					"animation": "fadeInUp"
 				},
 				{
 					"partnerLink": "#!",
-					"partnerImage": "assets/images/home1/brand/brand-logo5.png",
+					"partnerImage": "assets/images/home1/brand/Partner7.jpg",
 					"animation": "fadeInLeft"
 				}
 			]
@@ -1034,28 +1034,28 @@
 			}
 		},
 		"footer": {
-			"background": "assets/images/home1/footer/footer.jpg",
+			"background": "assets/images/home1/footer/footer1.jpg",
 
 			"mainFooter": {
 				"about": {
 					"title": "About",
-					"content": "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+					"content": "BOLT Telecommunications Inc. is an established leader in the telecommunications industry. Based in Brampton Ontario, our firm offers fiber optic services.",
 					"social": [
 						{
 							"icon": "fa-facebook-f",
-							"idLink": "#!"
+							"idLink": "https://www.facebook.com/"
 						},
 						{
 							"icon": "fa-twitter",
-							"idLink": "#!"
+							"idLink": "https://www.twitter.com/"
 						},
 						{
-							"icon": "fa-skype",
-							"idLink": "#!"
+							"icon": "fa-instagram",
+							"idLink": "https://www.instagram.com/"
 						},
 						{
-							"icon": "fa-google-plus-g",
-							"idLink": "#!"
+							"icon": "fa-linkedin",
+							"idLink": "https://www.linkedin.com/"
 						}
 					]
 				},
@@ -1063,23 +1063,19 @@
 					"title": "Information",
 					"pageLink": [
 						{
-							"pageName": "our process",
-							"pageLink": "#!"
-						},
-						{
-							"pageName": "Vintage Stores",
-							"pageLink": "#!"
-						},
-						{
-							"pageName": "Trekking",
-							"pageLink": "#!"
-						},
-						{
-							"pageName": "Our Clients",
-							"pageLink": "#!"
-						},
-						{
 							"pageName": "Our Team",
+							"pageLink": "#!"
+						},
+						{
+							"pageName": "Our Partners",
+							"pageLink": "#!"
+						},
+						{
+							"pageName": "Testimonials",
+							"pageLink": "#!"
+						},
+						{
+							"pageName": "Privacy Policy",
 							"pageLink": "#!"
 						}
 					]
@@ -1088,52 +1084,48 @@
 					"title": "Best Services",
 					"pageLink": [
 						{
-							"pageName": "our process",
+							"pageName": "FTTH",
 							"pageLink": "#!"
 						},
 						{
-							"pageName": "Vintage Stores",
+							"pageName": "FTTH",
 							"pageLink": "#!"
 						},
 						{
-							"pageName": "Trekking",
+							"pageName": "FTTC",
 							"pageLink": "#!"
 						},
 						{
-							"pageName": "Our Clients",
-							"pageLink": "#!"
-						},
-						{
-							"pageName": "Our Team",
+							"pageName": "MDU",
 							"pageLink": "#!"
 						}
 					]
 				},
 				"newsLetter": {
-					"title": "Newsletter",
+					"title": "Services",
 					"singleNews": [
 						{
-							"image": "assets/images/home1/footer/news1.jpg",
+							"image": "assets/images/home1/footer/news01.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news2.jpg",
+							"image": "assets/images/home1/footer/news02.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news3.jpg",
+							"image": "assets/images/home1/footer/news03.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news4.jpg",
+							"image": "assets/images/home1/footer/news04.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news5.jpg",
+							"image": "assets/images/home1/footer/news05.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news1.jpg",
+							"image": "assets/images/home1/footer/news06.jpg",
 							"link": "#!"
 						}
 					]
@@ -1141,8 +1133,8 @@
 			},
 			"footerBottom": {
 				"copyRightYear": "2021",
-				"copyRightFrom": "SITL",
-				"copyRightLink": "sitlbd.com",
+				"copyRightFrom": "BOLT",
+				"copyRightLink": "bolttelecommunications.ca",
 				"bottomPageLink": [
 					{
 						"pageName": "About",
