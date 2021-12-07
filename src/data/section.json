@@ -1063,10 +1063,6 @@
 					"title": "Information",
 					"pageLink": [
 						{
-							"pageName": "About Us",
-							"pageLink": "#!"
-						},
-						{
 							"pageName": "Our Team",
 							"pageLink": "#!"
 						},
@@ -1102,38 +1098,34 @@
 						{
 							"pageName": "MDU",
 							"pageLink": "#!"
-						},
-						{
-							"pageName": "Design Solutions",
-							"pageLink": "#!"
 						}
 					]
 				},
 				"newsLetter": {
-					"title": "Newsletter",
+					"title": "Services",
 					"singleNews": [
 						{
-							"image": "assets/images/home1/footer/news1.jpg",
+							"image": "assets/images/home1/footer/news01.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news2.jpg",
+							"image": "assets/images/home1/footer/news02.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news3.jpg",
+							"image": "assets/images/home1/footer/news03.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news4.jpg",
+							"image": "assets/images/home1/footer/news04.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news5.jpg",
+							"image": "assets/images/home1/footer/news05.jpg",
 							"link": "#!"
 						},
 						{
-							"image": "assets/images/home1/footer/news1.jpg",
+							"image": "assets/images/home1/footer/news06.jpg",
 							"link": "#!"
 						}
 					]
