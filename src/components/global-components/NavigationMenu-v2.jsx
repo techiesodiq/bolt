@@ -39,7 +39,7 @@ const NavigationMenuV2 = () => {
 										}`}
 									>
 										<li className="active">
-											<Link to="/home-v2">home</Link>
+											<Link to="/">home</Link>
 										</li>
 										<li>
 											<Link to="/about">about</Link>
