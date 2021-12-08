@@ -43,7 +43,11 @@ const AboutV2 = () => {
 								data-wow-duration="1.5s"
 								data-wow-delay=".3s"
 							>
-								<p>{data.content}</p>
+								<p>{data.content1}</p>
+								<br />
+								<p>{data.content2}</p>
+								<br />
+								<p>{data.content3}</p>
 								<ul>
 									{data.metaList.map((item, i) => {
 										return (

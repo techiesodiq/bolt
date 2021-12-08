@@ -2,7 +2,7 @@
 	"sectionData": {
 		"header": {
 			"logo": "assets/images/home1/logo.png",
-			"logo2": "assets/images/home2/logo.png",
+			"logo2": "assets/images/home2/logo.jpg",
 			"headerNavigationTop": {
 				"meta": {
 					"phone": {
@@ -21,12 +21,12 @@
 			"about": {
 				"title": "About Page",
 				"pageName": "About",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/banner01.jpg"
 			},
 			"service": {
 				"title": "Service Page",
 				"pageName": "Service",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/service.jpg"
 			},
 			"serviceDetails": {
 				"title": "Service Details",
@@ -61,7 +61,7 @@
 			"team": {
 				"title": "Team Page",
 				"pageName": "team",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/team.svg"
 			},
 			"pricing": {
 				"title": "Pricing Page",
@@ -71,12 +71,12 @@
 			"contact": {
 				"title": "Contact Page",
 				"pageName": "Contact",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/contact-us.svg"
 			},
 			"error": {
 				"title": "404 Page",
 				"pageName": "404",
-				"background": "assets/images/404/404.jpg"
+				"background": "assets/images/404/error.jpg"
 			}
 		},
 		"banner": {
@@ -201,7 +201,9 @@
 		"about": {
 			"subtitle": "Welcome to Bolt",
 			"title": "The First Amidst the Rest",
-			"content": "Our company’s vision is to provide you with the best services for your telecommunication needs.",
+			"content1": "Bolt Telecommunications Inc. is an established leader in the telecommunications industry. Based in Brampton Ontario, our firm offers fiber optic services. ",
+			"content2": "Our highly trained team have the experience and expertise necessary to complete your project on time, within budget and to your specifications.",
+			"content3": "Our vision is to provide you with the best services for your telecommunication needs.",
 			"metaList": [
 				{
 					"itemContent": "Power of minds."
@@ -995,12 +997,12 @@
 		"mapDescription": {
 			"mapLetLng": {
 				"center": {
-					"lat": 22.938437,
-					"lng": 90.828876
+					"lat": 43.66743,
+					"lng": -79.79429
 				}
 			},
-			"markerLet": 22.938437,
-			"markerLng": 90.628876,
+			"markerLet": 43.66743,
+			"markerLng": -79.79429,
 			"zoom": 11,
 			"apiKey": "AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"
 		},
@@ -1011,20 +1013,18 @@
 					{
 						"icon": "far fa-map",
 						"title": "Address",
-						"contentOne": "1650 Lombard Street",
-						"contentTwo": "San Francisco, CA 94123"
+						"contentOne": "88 Speedwell Street",
+						"contentTwo": "Brampton Ontario, L6X 0R8"
 					},
 					{
 						"icon": "fas fa-phone-alt",
 						"title": "Phone",
-						"contentOne": "+1 (415) 876-3250",
-						"contentTwo": "+1 (415) 876-3251"
+						"contentOne": "+1 (437) 329-9552"
 					},
 					{
 						"icon": "far fa-envelope",
 						"title": "E-mail",
-						"contentOne": "email@sitename.com",
-						"contentTwo": "example@sitename.com"
+						"contentOne": "contact@bolttelecommunications.ca"
 					}
 				]
 			},
@@ -1064,10 +1064,10 @@
 					"pageLink": [
 						{
 							"pageName": "Our Team",
-							"pageLink": "#!"
+							"pageLink": "/team"
 						},
 						{
-							"pageName": "Our Partners",
+							"pageName": "Our Clients",
 							"pageLink": "#!"
 						},
 						{
