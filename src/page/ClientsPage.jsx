@@ -4,25 +4,25 @@ import React, {useEffect} from "react";
 import ScrollTop from "../components/global-components/BackToTop";
 import Footer from "../components/global-components/Footer";
 import Layouts from "../components/global-components/Layouts";
+import Clients from "../components/section-components/Clients";
 import Connect from "../components/section-components/Connect";
 import HeaderV3 from "../components/section-components/Header-v3";
-import ServiceV2 from "../components/section-components/Service-v2";
 import {sectionData} from "./../data/section.json";
 
-const ServicePage = () => {
+const ClientsPage = () => {
 	const data = sectionData.sectionTitle;
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 	return (
 		<>
-			<Layouts pageTitle="Service">
+			<Layouts pageTitle="Clients">
 				<HeaderV3
-					background={data.service.background}
-					title={data.service.title}
-					pageName={data.service.pageName}
+					background={data.clients.background}
+					title={data.clients.title}
+					pageName={data.clients.pageName}
 				/>
-				<ServiceV2 />
+				<Clients />
 				<Connect />
 				<Footer />
 				<ScrollTop />
@@ -31,4 +31,4 @@ const ServicePage = () => {
 	);
 };
 
-export default ServicePage;
+export default ClientsPage;

@@ -19,12 +19,17 @@
 		},
 		"sectionTitle": {
 			"about": {
-				"title": "About Page",
+				"title": "About",
 				"pageName": "About",
 				"background": "assets/images/home2/banner/banner01.jpg"
 			},
+			"clients": {
+				"title": "Our Clients",
+				"pageName": "Our Clients",
+				"background": "assets/images/home2/banner/banner.jpg"
+			},
 			"service": {
-				"title": "Service Page",
+				"title": "Service",
 				"pageName": "Service",
 				"background": "assets/images/home2/banner/service.jpg"
 			},
@@ -34,12 +39,17 @@
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
 			"project": {
-				"title": "Project Page",
+				"title": "Project",
 				"pageName": "Project",
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
+			"testimonials": {
+				"title": "Testimonials",
+				"pageName": "Testimonials",
+				"background": "assets/images/home2/banner/banner.jpg"
+			},
 			"blog": {
-				"title": "Blog Page",
+				"title": "Blog",
 				"pageName": "Blog",
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
@@ -49,7 +59,7 @@
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
 			"faq": {
-				"title": "FAQ Page",
+				"title": "FAQ",
 				"pageName": "faq",
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
@@ -59,22 +69,27 @@
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
 			"team": {
-				"title": "Team Page",
+				"title": "Team",
 				"pageName": "team",
 				"background": "assets/images/home2/banner/team.svg"
 			},
 			"pricing": {
-				"title": "Pricing Page",
+				"title": "Pricing",
 				"pageName": "Pricing",
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
 			"contact": {
-				"title": "Contact Page",
+				"title": "Contact",
 				"pageName": "Contact",
 				"background": "assets/images/home2/banner/contact-us.svg"
 			},
+			"privacyPolicy": {
+				"title": "Privacy Policy",
+				"pageName": "Privacy Policy",
+				"background": "assets/images/home2/banner/banner.jpg"
+			},
 			"error": {
-				"title": "404 Page",
+				"title": "404",
 				"pageName": "404",
 				"background": "assets/images/404/error.jpg"
 			}
@@ -429,68 +444,68 @@
 			"member": [
 				{
 					"id": 1,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
 					"name": "Satrina Donahu",
 					"designation": "Programmer",
-					"image": "assets/images/home1/team/img1.jpg",
+					"image": "assets/images/home1/team/team1.jpg",
 					"animation": "fadeInRight"
 				},
 				{
 					"id": 2,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
 					"name": "Richard Powel",
 					"designation": "Designer",
-					"image": "assets/images/home1/team/img2.jpg",
+					"image": "assets/images/home1/team/team2.jpg",
 					"animation": "fadeInUp"
 				},
 				{
 					"id": 3,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
-					"name": "Wicha Dowel",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
+					"name": "Wicha Li",
 					"designation": "Developer",
-					"image": "assets/images/home1/team/img3.jpg",
+					"image": "assets/images/home1/team/team3.jpg",
 					"animation": "fadeInLeft"
 				},
 				{
 					"id": 4,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
-					"name": "Wicha Dowel",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
+					"name": "Mosh Khan",
 					"designation": "Co-Founder",
-					"image": "assets/images/home1/team/img4.jpg",
+					"image": "assets/images/home1/team/team4.jpg",
 					"animation": "fadeInRight"
 				},
 				{
 					"id": 5,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
 					"name": "Thomas Aldin",
 					"designation": "Co-Founder",
-					"image": "assets/images/home1/team/img5.jpg",
+					"image": "assets/images/home1/team/team5.jpg",
 					"animation": "fadeInDown"
 				},
 				{
 					"id": 6,
-					"facebookLink": "#!",
-					"twitterLink": "#!",
-					"linkdinLink": "#!",
-					"instagramLink": "#!",
+					"facebookLink": "https://www.facebook.com/",
+					"twitterLink": "https://www.twitter.com/",
+					"linkdinLink": "https://www.linkedin.com/",
+					"instagramLink": "https://www.instagram.com/",
 					"name": "kate lora",
 					"designation": "Co-Founder",
-					"image": "assets/images/home1/team/img6.jpg",
+					"image": "assets/images/home1/team/team6.jpg",
 					"animation": "fadeInLeft"
 				}
 			]
@@ -743,7 +758,7 @@
 		"client": {
 			"sectionHeading": {
 				"subtitle": "Client Testimonials",
-				"title": "What our Clients say",
+				"title": "What our customers say",
 				"content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tinciunt consectetuer adipiscing elit, sed diam nonummy"
 			},
 			"clientReview": [
@@ -769,6 +784,121 @@
 					"animation": "fadeInLeft"
 				}
 			],
+			"background": "assets/images/home2/client/client-bg2.jpg"
+		},
+		"clients": {
+			"sectionHeading": {
+				"subtitle": "The big names in the industry believe in us",
+				"title": "Our Major Clients",
+				"content": "Here are some of the major brands that have entrusted their work with us. We have not only delivered the best for them, but also turn out to be their first choice."
+			},
+			"clientsDetails": [
+				{
+					"image": "assets/images/home2/clients/logo2.png",
+					"animation": "fadeInUp",
+					"name": "Telecon",
+					"details": "Telecon is Canada's leading provider of telecommunications network infrastructure services."
+				},
+				{
+					"image": "assets/images/home2/clients/logo3.png",
+					"animation": "fadeInLeft",
+					"name": "Machtech",
+					"details": "Machtech is a multidisciplinary company in the telecommunications industry and a proud partner of reputable commercial,  local and national customers."
+				},
+				{
+					"image": "assets/images/home2/clients/logo4.png",
+					"animation": "fadeInRight",
+					"name": "VistaCare Communications",
+					"details": "VistaCare Communications was established in greater to solve technology challenges for today's business and organizations. Today, they deliver digital communication."
+				},
+				{
+					"image": "assets/images/home2/clients/logo5.png",
+					"animation": "fadeInUp",
+					"name": "Rogers",
+					"details": "Rogers Communications Inc. is a Canadian communications and media company operating primarily in the fields of wireless communications, cable television, telephony and Internet."
+				},
+				{
+					"image": "assets/images/home2/clients/logo6.png",
+					"animation": "fadeInLeft",
+					"name": "Expertech",
+					"details": "Expertech Network Installation is a major network infrastructure service provider for the wireline and wireless broadband technology market and employs over 1,200 experts."
+				},
+				{
+					"image": "assets/images/home2/clients/logo7.png",
+					"animation": "fadeInRight",
+					"name": "Cogeco",
+					"details": "Cogeco provides superfast fibre-powered Internet, flexible TV and Residential Home Phone services."
+				},
+				{
+					"image": "assets/images/home2/clients/logo1.png",
+					"animation": "fadeInRight",
+					"name": "Bell",
+					"details": "Bell is Canada's largest telecommunications company, providing Mobile phone, TV, high speed and wireless Internet, and residential Home phone services."
+				}
+			],
+			"background": "assets/images/home2/client/client-bg2.jpg"
+		},
+		"privacyPolicy": {
+			"sectionHeading": {
+				"subtitle": "We handle your privacy issues in the best of manner",
+				"title": "Privacy Policy",
+				"content": "Kindly go through the privacy details on this page to understand how we handle your privacy data and issues."
+			},
+			"policyDetails": {
+				"section1": {
+					"header": "What Are Our Privacy Policies for?",
+					"paragraph1": "Bolt Telecommunications Inc. ('Bolt', 'we', 'us', 'our') values your personal data and are committed to protecting your privacy whenever you interact with us. Please read the applicable Privacy Policy, to understand our policies, processes and procedures regarding the processing of your personal data.",
+					"paragraph2": "By these Policies, we explain how your personal data is collected, used, managed and transferred by Bolt, and how you can update your personal data with us and exercise your rights in respect of the personal data provided to us."
+				},
+				"section2": {
+					"header": "The Personal Data that We collect",
+					"paragraph1": "We collect the personal data that you provide us with, for example, by filling in an online form, registering your details or applying for a job through our website.",
+					"paragraph2": "We may also automatically collect some technical information when you visit our website such as your IP address, and information about your visit, such as the pages that you viewed. This information helps us understand visitor interests and helps us improve our website. When you visit our website, the pages that you look at, and a short text file called a cookie, are downloaded to your computer. By visiting and using our website, you agree to our use of cookies in line with Bolt’s policies."
+				},
+				"section3": {
+					"header": "What Purpose Do We Use Your Personal Data for?",
+					"paragraph1": "We may process your personal data to communicate with you, provide you with further information about our service solutions and how we can serve you better, respond to your requests, process your application for employment with Bolt or to fulfil our contractual obligations with you.  We may also process your personal data to comply with provisions of applicable laws."
+				},
+				"section4": {
+					"header": "Who do we share your Personal Data with?",
+					"paragraph1": "We respect your privacy and we limit disclosure of your personal data to third parties. We do not sell, give or trade any personal data that we obtain from you to any third party for data-mining or marketing purposes. However, we may share your personal data with companies within Bolt or third parties such as service providers engaged by us to provide services to Bolt subject to appropriate data security and protection. We may also share your information where there is a regulatory or statutory obligation to disclose such personal data in accordance with provisions of applicable laws."
+				},
+				"section5": {
+					"header": "Security And Retention of Your Personal Data",
+					"paragraph1": "Your personal data is kept private and we make every effort to ensure it is secure, including restricting access to personal data held with us on a need to know basis. We require our staff and any third parties who carry out any work on our behalf to comply with appropriate security standards to protect personal data.",
+					"paragraph2": "We take appropriate measures to ensure that your personal data is only processed for the minimum period necessary in line with the purposes set out in this Notice or as required by applicable laws, until a time it is no longer required or has no use. Once your personal data is no longer required, we destroy it in a safe and secure manner."
+				},
+				"section6": {
+					"header": "What Constitutes your Consent?",
+					"paragraph1": "Where processing of personal data is based on consent, we shall obtain the requisite consent at the time of collection of the data. In this regard, you consent to the processing of your personal data when you access our platforms, or use our services, content, features, technologies or functions offered on our website or other digital platforms."
+				},
+				"section7": {
+					"header": "Your Rights",
+					"paragraph1": "Bolt collects personal data only for the purposes identified in this Notice and such information cannot be reused for another purpose that is incompatible with the original purpose.",
+					"paragraph2": {
+						"introduction": "You can exercise the following rights with respect to your personal data with Bolt:",
+						"list": [
+							"Request for and access your personal data collected and stored by Bolt;",
+							"Withdraw consent at any time;",
+							"Object to automated decision making;",
+							"Request rectification and modification of personal data kept by Bolt;",
+							"Request for deletion of your personal data;",
+							"Be informed of and entitled to provide consent prior to the processing of personal data for purposes other than that for which the personal data were collected;",
+							"Request that Bolt restricts processing of your personal data; and",
+							"Request for information regarding any specific processing of your personal data."
+						],
+						"conclusion": "You also have the right to lodge a complaint with the Regulator regarding any issue relating to the processing of your personal data."
+					}
+				},
+				"section8": {
+					"header": "Changes to our Privacy Policies",
+					"paragraph1": "Due to constant changes in technology and regulatory requirements, we may need to change or update our privacy notices from time to time. You will always be able to find the most recent version of our updated Privacy Notices on this site."
+				},
+				"section9": {
+					"header": "Contact and Communication",
+					"paragraph1": "If you would like further information on either Notice, please contact contacts@bolttelecommunications.com"
+				}
+			},
 			"background": "assets/images/home2/client/client-bg2.jpg"
 		},
 		"partner": {
@@ -1068,15 +1198,15 @@
 						},
 						{
 							"pageName": "Our Clients",
-							"pageLink": "#!"
+							"pageLink": "/our-clients"
 						},
 						{
 							"pageName": "Testimonials",
-							"pageLink": "#!"
+							"pageLink": "/testimonials"
 						},
 						{
 							"pageName": "Privacy Policy",
-							"pageLink": "#!"
+							"pageLink": "/privacy-policy"
 						}
 					]
 				},
@@ -1146,7 +1276,7 @@
 					},
 					{
 						"pageName": "Privacy Policy",
-						"pageLink": "#!"
+						"pageLink": "/privacy-policy"
 					},
 					{
 						"pageName": "Contact",

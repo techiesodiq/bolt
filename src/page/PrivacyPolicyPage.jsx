@@ -6,23 +6,23 @@ import Footer from "../components/global-components/Footer";
 import Layouts from "../components/global-components/Layouts";
 import Connect from "../components/section-components/Connect";
 import HeaderV3 from "../components/section-components/Header-v3";
-import ServiceV2 from "../components/section-components/Service-v2";
+import PrivacyPolicy from "../components/section-components/PrivacyPolicy";
 import {sectionData} from "./../data/section.json";
 
-const ServicePage = () => {
+const ClientsPage = () => {
 	const data = sectionData.sectionTitle;
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 	return (
 		<>
-			<Layouts pageTitle="Service">
+			<Layouts pageTitle="Privacy Policy">
 				<HeaderV3
-					background={data.service.background}
-					title={data.service.title}
-					pageName={data.service.pageName}
+					background={data.privacyPolicy.background}
+					title={data.privacyPolicy.title}
+					pageName={data.privacyPolicy.pageName}
 				/>
-				<ServiceV2 />
+				<PrivacyPolicy />
 				<Connect />
 				<Footer />
 				<ScrollTop />
@@ -31,4 +31,4 @@ const ServicePage = () => {
 	);
 };
 
-export default ServicePage;
+export default ClientsPage;

@@ -6,7 +6,7 @@ import Footer from "../components/global-components/Footer";
 import Layouts from "../components/global-components/Layouts";
 import Connect from "../components/section-components/Connect";
 import HeaderV3 from "../components/section-components/Header-v3";
-import ServiceV2 from "../components/section-components/Service-v2";
+import Testimonials from "../components/section-components/Testimonials";
 import {sectionData} from "./../data/section.json";
 
 const ServicePage = () => {
@@ -16,13 +16,13 @@ const ServicePage = () => {
 	}, []);
 	return (
 		<>
-			<Layouts pageTitle="Service">
+			<Layouts pageTitle="Testimonials">
 				<HeaderV3
-					background={data.service.background}
-					title={data.service.title}
-					pageName={data.service.pageName}
+					background={data.testimonials.background}
+					title={data.testimonials.title}
+					pageName={data.testimonials.pageName}
 				/>
-				<ServiceV2 />
+				<Testimonials />
 				<Connect />
 				<Footer />
 				<ScrollTop />
