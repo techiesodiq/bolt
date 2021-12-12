@@ -39,11 +39,11 @@ const ServiceV2 = () => {
 													</div>
 													<span className="number">0{i + 1}</span>
 													<h3>{item.title}</h3>
-													<ul>
+													{/* <ul>
 														{item.feature.map((item, i) => {
 															return <li key={i}>{item}</li>;
 														})}
-													</ul>
+													</ul> */}
 													<Link to="/service" className="btn-style">
 														<span>read more</span>
 													</Link>
