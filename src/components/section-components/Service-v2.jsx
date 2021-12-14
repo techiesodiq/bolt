@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import {Link} from "react-router-dom";
 import SectionTitle from "../global-components/SectionTitle";
 import {sectionData} from "./../../data/section.json";
 
@@ -44,9 +43,9 @@ const ServiceV2 = () => {
 															return <li key={i}>{item}</li>;
 														})}
 													</ul> */}
-													<Link to="/service" className="btn-style">
+													{/* <Link to="#" className="btn-style">
 														<span>read more</span>
-													</Link>
+													</Link> */}
 												</div>
 											</div>
 										</div>

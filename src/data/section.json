@@ -310,7 +310,9 @@
 					"icon": "flaticon-medal",
 					"image": "assets/images/home2/offer/ftth-offer1.jpg",
 					"animation": "fadeInRight",
+					"id": "fiber-to-the-home",
 					"title": "Fiber to the Home (FTTH)",
+					"description": "Fiber to the Home (FTTH) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a home, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -321,7 +323,9 @@
 					"icon": "flaticon-promotion",
 					"image": "assets/images/home2/offer/offer-2.jpg",
 					"animation": "fadeInUp",
+					"id": "fiber-to-the-building",
 					"title": "Fiber to the Building (FTTB)",
+					"description": "Fiber to the Building (FTTB) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a building, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -332,7 +336,9 @@
 					"icon": "flaticon-briefcase-1",
 					"image": "assets/images/home2/offer/offer-3.jpg",
 					"animation": "fadeInLeft",
+					"id": "installation-and-design-solution",
 					"title": "Installation & Design Solution",
+					"description": "You can count on our installation and design solutions team to take care of all your cabling requirements. All of our solutions in this area are bespoke with your budget and requirement needs in mind. Whether it be Splicing Fiber optic cables, testing, tracing, troubleshooting, and fixing your network problems.  We offer a very cost effective cabling solution with your IT budget in mind, while still maintaining quality and integrity",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -343,7 +349,9 @@
 					"icon": "flaticon-briefcase",
 					"image": "assets/images/home2/offer/offer4.png",
 					"animation": "fadeInRight",
+					"id": "multi-dwelling-units",
 					"title": "Multi Dwelling Units (MDU)",
+					"description": "Finding the ideal fiber installation solution for Multi Dwelling Units (MDU), normally apartment blocks or hotels, is a major obstacle that carriers face as the pace of Fiber to the Home (FTTH) deployments increases to meet the ever increasing consumer demand for bandwidth, but with BOLT Telecommunications Inc. you can get the best and most seamless solution in terms of cost and delivery time.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -354,7 +362,9 @@
 					"icon": "flaticon-medal",
 					"image": "assets/images/home2/offer/offer-5.jpg",
 					"animation": "fadeInDown",
+					"id": "fiber-to-the-curb",
 					"title": "Fiber to the Curb (FTTC)",
+					"description": "Fiber to the Curb (FTTC) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a curb, thereby replacing existing infrastructure.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -365,7 +375,9 @@
 					"icon": "flaticon-lamp",
 					"image": "assets/images/home2/offer/offer-6.jpg",
 					"animation": "fadeInRight",
+					"id": "fiber-to-the-room",
 					"title": "Fiber to the Room (FTTR)",
+					"description": "Fiber to the Room (FTTR) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a room, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -1215,19 +1227,19 @@
 					"pageLink": [
 						{
 							"pageName": "FTTH",
-							"pageLink": "#!"
+							"pageLink": "/service"
 						},
 						{
 							"pageName": "FTTH",
-							"pageLink": "#!"
+							"pageLink": "/service"
 						},
 						{
 							"pageName": "FTTC",
-							"pageLink": "#!"
+							"pageLink": "/service"
 						},
 						{
 							"pageName": "MDU",
-							"pageLink": "#!"
+							"pageLink": "/service"
 						}
 					]
 				},
@@ -1236,27 +1248,27 @@
 					"singleNews": [
 						{
 							"image": "assets/images/home1/footer/news01.jpg",
-							"link": "#!"
+							"link": "/service"
 						},
 						{
 							"image": "assets/images/home1/footer/news02.jpg",
-							"link": "#!"
+							"link": "/service"
 						},
 						{
 							"image": "assets/images/home1/footer/news03.jpg",
-							"link": "#!"
+							"link": "/service"
 						},
 						{
 							"image": "assets/images/home1/footer/news04.jpg",
-							"link": "#!"
+							"link": "/service"
 						},
 						{
 							"image": "assets/images/home1/footer/news05.jpg",
-							"link": "#!"
+							"link": "/service"
 						},
 						{
 							"image": "assets/images/home1/footer/news06.jpg",
-							"link": "#!"
+							"link": "/service"
 						}
 					]
 				}

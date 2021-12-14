@@ -16,7 +16,7 @@ import InstallationAndDesignSolution from "../../page/InstallationAndDesignSolut
 import PricingPage from "../../page/PricingPage";
 import PrivacyPolicy from "../../page/PrivacyPolicyPage";
 import ProjectPage from "../../page/ProjectPage";
-import ServiceDetails from "../../page/ServiceDetails";
+// import ServiceDetails from "../../page/ServiceDetails";
 import ServicePage from "../../page/ServicePage";
 import TeamDetails from "../../page/TeamDetails";
 import TeamPage from "../../page/TeamPage";
@@ -30,7 +30,7 @@ function AppRoute() {
 				<Route path="/about" exact component={AboutPage} />
 				<Route path="/our-clients" exact component={ClientsPage} />
 				<Route path="/service" exact component={ServicePage} />
-				<Route path="/service-details" exact component={ServiceDetails} />
+				{/* <Route path="/service/:id" exact component={ServiceDetails} /> */}
 				<Route path="/fiber-to-the-home" exact component={FTTHPage} />
 				<Route path="/fiber-to-the-building" exact component={FTTBPage} />
 				<Route path="/fiber-to-the-curb" exact component={FTTCPage} />
