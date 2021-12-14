@@ -19,10 +19,20 @@ const AboutV2 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="bg bg1">
-									<img src={data.image4} className="img-fluid" alt="About " />
+									<img
+										style={{objectFit: "cover"}}
+										src={data.image4}
+										className="img-fluid"
+										alt="About "
+									/>
 								</div>
 								<div className="bg bg2">
-									<img src={data.image5} className="img-fluid" alt="About " />
+									<img
+										style={{objectFit: "cover"}}
+										src={data.image5}
+										className="img-fluid"
+										alt="About "
+									/>
 								</div>
 								<div className="shape"></div>
 							</div>
@@ -65,7 +75,12 @@ const AboutV2 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="image">
-									<img src={data.ceoImage} className="img-fluid" alt="Person" />
+									<img
+										style={{objectFit: "cover"}}
+										src={data.ceoImage}
+										className="img-fluid"
+										alt="Person"
+									/>
 								</div>
 								<div className="name">
 									<h6>{data.ceoName}</h6>

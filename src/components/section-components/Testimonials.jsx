@@ -72,6 +72,7 @@ const ClientV2 = () => {
 													<div className="border-style">
 														<img
 															src={item.image}
+															style={{objectFit: "cover"}}
 															className="img-fluid"
 															alt="Client"
 														/>
