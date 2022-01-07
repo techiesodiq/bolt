@@ -18,7 +18,11 @@ const NavigationMenuV2 = () => {
 						<div className="col-lg-12">
 							<nav className="navbar p-0">
 								<Link className="navbar-brand p-0" to="/">
-									<img src={data.logo2} alt="Logo" />
+									<img
+										style={{height: "45px", width: "140px"}}
+										src={data.logo2}
+										alt="Logo"
+									/>
 								</Link>
 								<div
 									className={`header-menu ml-auto position-static ${

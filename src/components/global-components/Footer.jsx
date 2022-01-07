@@ -113,7 +113,7 @@ const Footer = () => {
 									<div className="col-lg-6 col-md-5">
 										<div className="copyright">
 											<p>
-												Copyright &copy; {data.footerBottom.copyRightYear}{" "}
+												Copyright &copy; {new Date().getFullYear()}{" "}
 												<Link to={data.footerBottom.copyRightLink}>
 													{data.footerBottom.copyRightFrom}
 												</Link>

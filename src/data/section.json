@@ -2,7 +2,7 @@
 	"sectionData": {
 		"header": {
 			"logo": "assets/images/home1/logo.png",
-			"logo2": "assets/images/home2/logo.jpg",
+			"logo2": "assets/images/home2/bolt-logo1.png",
 			"headerNavigationTop": {
 				"meta": {
 					"phone": {
@@ -86,6 +86,11 @@
 			"privacyPolicy": {
 				"title": "Privacy Policy",
 				"pageName": "Privacy Policy",
+				"background": "assets/images/home2/banner/banner.jpg"
+			},
+			"healthAndSafety": {
+				"title": "Health and Safety",
+				"pageName": "Health and Safety",
 				"background": "assets/images/home2/banner/banner.jpg"
 			},
 			"error": {
@@ -240,6 +245,26 @@
 			"image3": "assets/images/home1/about/about-img3.jpg",
 			"image4": "assets/images/home2/about/about3.jpg",
 			"image5": "assets/images/home2/about/about4.jpg",
+			"ceoImage": "assets/images/home1/about/about-3.jpg",
+			"ceoSign": "assets/images/home1/about/sign.png"
+		},
+		"healthAndSafety": {
+			"subtitle": "Health and Safety",
+			"title": "We Are Safety Conscious",
+			"content1": "Bolt Telecommunications Inc. is viewed as a leader in the telecommunication industry and we take every opportunity to enhance our safety and training programs, and ultimately, our safety performance. ",
+			"content2": "We are working with industry to pave the road to “ZERO”.",
+			"content3": "Our vision is to provide you with the best services for your telecommunication needs.",
+			"industryInvolvementTitle": "Industry Involvement",
+			"industryInvolvement": "Being an industry leader means you are involved and proactive in providing solutions and sharing ideas with clients and peers.  We pride ourselves on our commitment to engaging with industry and helping shape the future of safety in the energy sector.  Several members of the Bolt team have in the past and continue to have a seat at the table of industry initiatives.",
+			"safetyInitiativesTitle": "Safety Initiatives",
+			"safetyInitiatives": "Bolt has played a key role in developing training systems to assist industry in meeting the new workplace electrical safety standards. We have also produced safety videos that are shared with industry allowing other companies to utilize these tools in the spirit of creating safer workplaces.",
+			"image1": "assets/images/home1/about/about-img1.jpg",
+			"image2": "assets/images/home1/about/about-img2.jpg",
+			"image3": "assets/images/home1/about/about-img3.jpg",
+			"image4": "assets/images/home2/about/about3.jpg",
+			"image5": "assets/images/home2/about/about4.jpg",
+			"femaleEngineer": "assets/images/home2/about/female-engineer.jpg",
+			"safetyImage": "assets/images/home2/about/safety.jpg",
 			"ceoImage": "assets/images/home1/about/about-3.jpg",
 			"ceoSign": "assets/images/home1/about/sign.png"
 		},
@@ -1213,8 +1238,8 @@
 							"pageLink": "/our-clients"
 						},
 						{
-							"pageName": "Testimonials",
-							"pageLink": "/testimonials"
+							"pageName": "Health & Safety",
+							"pageLink": "/health-and-safety"
 						},
 						{
 							"pageName": "Privacy Policy",
@@ -1276,7 +1301,7 @@
 			"footerBottom": {
 				"copyRightYear": "2021",
 				"copyRightFrom": "BOLT",
-				"copyRightLink": "bolttelecommunications.ca",
+				"copyRightLink": "/",
 				"bottomPageLink": [
 					{
 						"pageName": "About",

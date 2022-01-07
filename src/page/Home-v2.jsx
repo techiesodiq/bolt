@@ -8,10 +8,10 @@ import Connect from "../components/section-components/Connect";
 import Contact from "../components/section-components/Contact";
 import CountV2 from "../components/section-components/Count-v2";
 import HeaderV2 from "../components/section-components/Header-v2";
+import HealthAndSafety from "../components/section-components/HealthAndSafety";
 import NewsLetter from "../components/section-components/NewsLetter";
 import Partner from "../components/section-components/Partner";
 import ServiceV2 from "../components/section-components/Service-v2";
-import Testimonials from "../components/section-components/Testimonials";
 
 export default class HomeV2 extends Component {
 	componentDidMount() {
@@ -24,13 +24,10 @@ export default class HomeV2 extends Component {
 				<AboutV2 />
 				<NewsLetter />
 				<ServiceV2 />
-				{/* <ProjectV2 />
-                <Pricing /> */}
-				<Testimonials />
 				<CountV2 />
-				<Contact />
+				<HealthAndSafety />
 				<Partner />
-				{/* <News /> */}
+				<Contact />
 				<Connect />
 				<Footer />
 			</Layouts>

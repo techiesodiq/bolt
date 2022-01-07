@@ -11,6 +11,7 @@ import FTTBPage from "../../page/FTTBPage";
 import FTTCPage from "../../page/FTTCPage";
 import FTTHPage from "../../page/FTTHPage";
 import FTTRPage from "../../page/FTTRPage";
+import HealthAndSafetyPage from "../../page/HealthAndSafety";
 import HomeV2 from "../../page/Home-v2";
 import InstallationAndDesignSolution from "../../page/InstallationAndDesignSolution";
 import PricingPage from "../../page/PricingPage";
@@ -45,6 +46,11 @@ function AppRoute() {
 				<Route path="/team" exact component={TeamPage} />
 				<Route path="/team-details" exact component={TeamDetails} />
 				<Route path="/testimonials" exact component={TestimonialsPage} />
+				<Route
+					path="/health-and-safety"
+					exact
+					component={HealthAndSafetyPage}
+				/>
 				<Route path="/pricing" exact component={PricingPage} />
 				<Route path="/contact" exact component={ContactPage} />
 				<Route path="/blog-details" exact component={BlogDetails} />
