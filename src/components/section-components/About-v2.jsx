@@ -69,7 +69,7 @@ const AboutV2 = () => {
 									})}
 								</ul>
 							</div>
-							<div
+							{/* <div
 								className="author d-flex align-items-center wow fadeInLeft"
 								data-wow-duration="1.5s"
 								data-wow-delay=".3s"
@@ -93,7 +93,7 @@ const AboutV2 = () => {
 										alt="Signature"
 									/>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
