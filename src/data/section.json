@@ -26,7 +26,7 @@
 			"clients": {
 				"title": "Our Clients",
 				"pageName": "Our Clients",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/service.jpg"
 			},
 			"service": {
 				"title": "Service",
@@ -86,12 +86,12 @@
 			"privacyPolicy": {
 				"title": "Privacy Policy",
 				"pageName": "Privacy Policy",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/banner01.jpg"
 			},
 			"healthAndSafety": {
 				"title": "Health and Safety",
 				"pageName": "Health and Safety",
-				"background": "assets/images/home2/banner/banner.jpg"
+				"background": "assets/images/home2/banner/banner01.jpg"
 			},
 			"error": {
 				"title": "404",

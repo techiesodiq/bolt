@@ -12,7 +12,7 @@ const AboutV2 = () => {
 			<section className="about p-120 index2">
 				<div className="container">
 					<div className="row align-items-center">
-						<div className="col-lg-6">
+						<div className="col-lg-6 align-items-center">
 							<div
 								className="all-img wow fadeInRight"
 								data-wow-duration="1.5s"
@@ -26,14 +26,14 @@ const AboutV2 = () => {
 										alt="About "
 									/>
 								</div>
-								<div className="bg bg2">
+								{/* <div className="bg bg2">
 									<img
 										style={{objectFit: "cover"}}
 										src={data.image5}
 										className="img-fluid"
 										alt="About "
 									/>
-								</div>
+								</div> */}
 								<div className="shape"></div>
 							</div>
 						</div>
