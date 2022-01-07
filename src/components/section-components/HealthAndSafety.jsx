@@ -21,7 +21,7 @@ const AboutV2 = () => {
 								<div className="bg bg1">
 									<img
 										style={{objectFit: "cover"}}
-										src={data.image4}
+										src={data.safetyImage}
 										className="img-fluid"
 										alt="About "
 									/>
@@ -89,7 +89,7 @@ const AboutV2 = () => {
 								<div className="bg bg1">
 									<img
 										style={{objectFit: "cover"}}
-										src={data.safetyImage}
+										src={data.engineer}
 										className="img-fluid"
 										alt="About "
 									/>

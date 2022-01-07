@@ -264,6 +264,7 @@
 			"image4": "assets/images/home2/about/about3.jpg",
 			"image5": "assets/images/home2/about/about4.jpg",
 			"femaleEngineer": "assets/images/home2/about/female-engineer.jpg",
+			"engineer": "assets/images/home2/about/engineer.jpg",
 			"safetyImage": "assets/images/home2/about/safety.jpg",
 			"ceoImage": "assets/images/home1/about/about-3.jpg",
 			"ceoSign": "assets/images/home1/about/sign.png"
@@ -1230,8 +1231,8 @@
 					"title": "Information",
 					"pageLink": [
 						{
-							"pageName": "Our Team",
-							"pageLink": "/team"
+							"pageName": "About",
+							"pageLink": "/about"
 						},
 						{
 							"pageName": "Our Clients",
