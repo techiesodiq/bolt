@@ -24,6 +24,9 @@ export default class HomeV2 extends Component {
 				<AboutV2 />
 				<NewsLetter />
 				<ServiceV2 />
+				<br />
+				<br />
+				<br />
 				<CountV2 />
 				<HealthAndSafety />
 				<Partner />

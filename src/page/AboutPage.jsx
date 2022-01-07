@@ -5,7 +5,6 @@ import ScrollTop from "../components/global-components/BackToTop";
 import Footer from "../components/global-components/Footer";
 import Layouts from "../components/global-components/Layouts";
 import About from "../components/section-components/About-v2";
-import Client from "../components/section-components/Client";
 import Connect from "../components/section-components/Connect";
 import Count from "../components/section-components/Count";
 import HeaderV3 from "../components/section-components/Header-v3";
@@ -18,7 +17,7 @@ const AboutPage = () => {
 	}, []);
 	return (
 		<>
-			<Layouts pageTitle="Abouts">
+			<Layouts pageTitle="About">
 				<HeaderV3
 					background={data.about.background}
 					title={data.about.title}
@@ -27,7 +26,6 @@ const AboutPage = () => {
 				<About />
 				<Count />
 				<Service />
-				<Client />
 				<Connect />
 				<Footer />
 				<ScrollTop />
