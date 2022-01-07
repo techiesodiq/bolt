@@ -1,7 +1,6 @@
 /** @format */
 
 import React, {useState} from "react";
-import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.min.css";
 import {Link} from "react-router-dom";
 import {sectionData} from "./../../data/section.json";
@@ -35,7 +34,7 @@ const HeroV2 = () => {
 												<span>about us</span>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<ModalVideo
 												channel={data.channelName}
 												autoplay
@@ -57,7 +56,7 @@ const HeroV2 = () => {
 												</div>
 												How we work
 											</Link>
-										</li>
+										</li> */}
 									</ul>
 								</div>
 							</div>
