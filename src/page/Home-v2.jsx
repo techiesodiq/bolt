@@ -10,7 +10,6 @@ import CountV2 from "../components/section-components/Count-v2";
 import HeaderV2 from "../components/section-components/Header-v2";
 import HealthAndSafety from "../components/section-components/HealthAndSafety";
 import NewsLetter from "../components/section-components/NewsLetter";
-import Partner from "../components/section-components/Partner";
 import ServiceV2 from "../components/section-components/Service-v2";
 
 export default class HomeV2 extends Component {
@@ -29,7 +28,7 @@ export default class HomeV2 extends Component {
 				<br />
 				<CountV2 />
 				<HealthAndSafety />
-				<Partner />
+				{/* <Partner /> */}
 				<Contact />
 				<Connect />
 				<Footer />
