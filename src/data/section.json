@@ -6,10 +6,10 @@
 			"headerNavigationTop": {
 				"meta": {
 					"phone": {
-						"number": "123-456-789"
+						"number": "123-456-7890"
 					},
 					"mail": {
-						"email": "demo@examplegmail.com"
+						"email": "demo@example.com"
 					},
 					"consultation": {
 						"title": "Request A Free Consultation"

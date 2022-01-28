@@ -16,7 +16,7 @@ const HeroV2 = () => {
 				className="banner"
 				style={{background: `url(${publicUrl + data.background})`}}
 			>
-				<div className="overlay ">
+				<div className="overlay reducePadding">
 					<div className="container ">
 						<div className="row">
 							<div className="col-lg-8">
