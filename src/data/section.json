@@ -189,32 +189,11 @@
 			"background": "assets/images/home2/count/map.png",
 			"singleCount": [
 				{
-					"title": "Happy Customers",
-					"numbar": 3365,
-					"animation": "fadeInRight",
-					"animationDelay": "0.4s",
-					"icon": "flaticon-user"
-				},
-				{
-					"title": "Clients Work",
-					"numbar": 230,
+					"title": "Number of Splicing",
+					"number": 253000,
 					"animation": "fadeInUp",
 					"animationDelay": "0.3s",
 					"icon": "flaticon-layers"
-				},
-				{
-					"title": "Satisfied Customers",
-					"numbar": 124,
-					"animation": "fadeInUp",
-					"animationDelay": "0.3s",
-					"icon": "flaticon-bookmark-white"
-				},
-				{
-					"title": "Years Experience",
-					"numbar": 18,
-					"animation": "fadeInLeft",
-					"animationDelay": "0.4s",
-					"icon": "flaticon-diamond"
 				}
 			]
 		},
