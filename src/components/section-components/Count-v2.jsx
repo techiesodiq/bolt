@@ -1,8 +1,10 @@
 /** @format */
 
-import React, {useState} from "react";
+import {collection, getDocs} from "firebase/firestore";
+import React, {useEffect, useState} from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
+import {db} from "../../firebase-config";
 import {sectionData} from "./../../data/section.json";
 
 const CountV2 = () => {
@@ -10,6 +12,17 @@ const CountV2 = () => {
 	let publicUrl = process.env.PUBLIC_URL + "/";
 
 	const [didViewCountUp, setDidViewCountUp] = useState(false);
+	const [users, setUsers] = useState([]);
+	const usersCollectionRef = collection(db, "users");
+
+	const getUsers = async () => {
+		const data = await getDocs(usersCollectionRef);
+		setUsers(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
+	};
+
+	useEffect(() => {
+		getUsers();
+	}, []);
 
 	const onVisibilityChange = (isVisible) => {
 		if (isVisible) {
@@ -34,9 +47,17 @@ const CountV2 = () => {
 							}}
 						>
 							<div className="row">
-								{data.singleCount.map((item, i) => {
+								{users.map((item, i) => {
 									return (
-										<div className="col-lg-3 col-md-6" key={i}>
+										<div
+											style={{
+												display: "flex",
+												alignItems: "center",
+												justifyContent: "center",
+											}}
+											className="col-lg-12 "
+											key={i}
+										>
 											<div className="item">
 												<div className="icon">
 													<i className={item.icon}></i>
