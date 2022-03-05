@@ -23,6 +23,11 @@
 				"pageName": "About",
 				"background": "assets/images/home2/banner/banner01.jpg"
 			},
+			"admin" : {
+                "title": "Admin",
+				"pageName": "Admin",
+				"background": "assets/images/home2/banner/admin.jpg"
+			},
 			"clients": {
 				"title": "Our Clients",
 				"pageName": "Our Clients",
@@ -252,6 +257,20 @@
 			"background": "assets/images/home2/newsletter/newsletter-bg1.jpg",
 			"title": "Let’s find out how to work Together",
 			"content": "Want to know more about Bolt's work around the globe, ground-breaking projects, and other efforts to improve the telecommunications around the world? Sign up for our email brief for hand-picked articles, news, and more."
+		},
+		"admin": {
+            "adminSectionHeading": {
+				"subtitle": "Admin Section",
+				"title": "Welcome back!",
+				"content": "You are having access to this page because you are an administrative memnber of Bolt Telecommunications. Information available to you here must be treated with high confidentiality concerns."
+			},
+			"count": {
+				"icon": "flaticon-layers",
+				"number": "253000",
+				"title": "Number of Splicing",
+				"image": "assets/images/home2/offer/ftth-offer1.jpg",
+				"animation": "fadeInRight"
+			}
 		},
 		"service": {
 			"serviceSectionHeading": {
