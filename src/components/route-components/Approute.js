@@ -3,6 +3,7 @@
 import React from "react";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import AboutPage from "../../page/AboutPage";
+import AdminPage from "../../page/AdminPage";
 import BlogDetails from "../../page/BlogDetails";
 import ClientsPage from "../../page/ClientsPage";
 import ContactPage from "../../page/ContactPage";
@@ -29,6 +30,7 @@ function AppRoute() {
 			<Switch>
 				<Route path="/" exact component={HomeV2} />
 				<Route path="/about" exact component={AboutPage} />
+				<Route path="/admin" exact component={AdminPage} />
 				<Route path="/our-clients" exact component={ClientsPage} />
 				<Route path="/service" exact component={ServicePage} />
 				{/* <Route path="/service/:id" exact component={ServiceDetails} /> */}

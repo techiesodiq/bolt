@@ -1823,9 +1823,11 @@ footer .overlay {
 }
 .footer-top .news {
 	display: grid;
+	display: -ms-grid;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	grid-template-columns: auto auto auto;
+	-ms-grid-columns: auto auto auto;
 }
 .footer-top .news .news-item {
 	display: block;
@@ -2941,6 +2943,7 @@ footer .overlay {
 	color: var(--main-dark);
 	margin-bottom: 20px;
 	width: fit-content;
+	width: -moz-fit-content;
 	position: relative;
 }
 .blog-detail .blog-sidebar .item-title h5:after {
@@ -3124,3 +3127,7 @@ footer.error-page {
 	color: white;
 	border-radius: 3px;
 }
+
+/*=========================================================
+    27: admin page
+===========================================================*/
