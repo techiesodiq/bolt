@@ -23,8 +23,8 @@
 				"pageName": "About",
 				"background": "assets/images/home2/banner/banner01.jpg"
 			},
-			"admin" : {
-                "title": "Admin",
+			"admin": {
+				"title": "Admin",
 				"pageName": "Admin",
 				"background": "assets/images/home2/banner/admin.jpg"
 			},
@@ -113,9 +113,9 @@
 			"videoId": "LCmsrVOXzZc"
 		},
 		"bannerV2": {
-			"subtitle": "An established leader in the telecommunications industry",
+			"subtitle": "A young and dynamic fibre optic infrastructure company",
 			"title": "We Offer the Best Solutions",
-			"content": "With Bolt, your network connections are secured with fiber optic cables to give you more speed between all your network equipment.",
+			"content": "With BOLT, your network connections are secured with fibre optic cables to give you more speed between all your network equipment.",
 			"background": "assets/images/home2/banner/banner.png",
 			"channelName": "youtube",
 			"videoId": "LCmsrVOXzZc"
@@ -194,8 +194,8 @@
 			"background": "assets/images/home2/count/map.png",
 			"singleCount": [
 				{
-					"title": "Number of Splicing",
-					"number": 253000,
+					"title": "Number of Splices",
+					"number": "253000",
 					"animation": "fadeInUp",
 					"animationDelay": "0.3s",
 					"icon": "flaticon-layers"
@@ -203,9 +203,9 @@
 			]
 		},
 		"about": {
-			"subtitle": "Welcome to Bolt",
-			"title": "The First Amidst the Rest",
-			"content1": "Bolt Telecommunications Inc. is an established leader in the telecommunications industry. Based in Brampton Ontario, our firm offers fiber optic services. ",
+			"subtitle": "Welcome to BOLT",
+			"title": "We offer the best fibre optic solutions",
+			"content1": "BOLT Telecommunications Inc. is a young and dynamic fibre optic infrastructure company. Based in Brampton Ontario, our firm offers fibre optic services.",
 			"content2": "Our highly trained team have the experience and expertise necessary to complete your project on time, within budget and to your specifications.",
 			"content3": "Our vision is to provide you with the best services for your telecommunication needs.",
 			"metaList": [
@@ -239,9 +239,9 @@
 			"content2": "We are working with industry to pave the road to “ZERO”.",
 			"content3": "Our vision is to provide you with the best services for your telecommunication needs.",
 			"industryInvolvementTitle": "Industry Involvement",
-			"industryInvolvement": "As an industry leader, we are involved and proactive in providing solutions and sharing ideas with clients and peers.  We pride ourselves on our commitment to engaging with industry and helping shape the future of safety in the energy sector.  Several members of the Bolt team have in the past and continue to have a seat at the table of industry initiatives.",
+			"industryInvolvement": "As an industry leader, we are involved and proactive in providing solutions and sharing ideas with clients and peers.  We pride ourselves on our commitment to engaging with industry and helping shape the future of safety in the energy sector.  Several members of the BOLT team have in the past and continue to have a seat at the table of industry initiatives.",
 			"safetyInitiativesTitle": "Safety Initiatives",
-			"safetyInitiatives": "Bolt has played a key role in developing training systems to assist industry in meeting the new workplace electrical safety standards. We have also produced safety videos that are shared with industry allowing other companies to utilize these tools in the spirit of creating safer workplaces.",
+			"safetyInitiatives": "BOLT has played a key role in developing training systems to assist industry in meeting the new workplace electrical safety standards. We have also produced safety videos that are shared with industry allowing other companies to utilize these tools in the spirit of creating safer workplaces.",
 			"image1": "assets/images/home1/about/about-img1.jpg",
 			"image2": "assets/images/home1/about/about-img2.jpg",
 			"image3": "assets/images/home1/about/about-img3.jpg",
@@ -256,20 +256,24 @@
 		"newsletter": {
 			"background": "assets/images/home2/newsletter/newsletter-bg1.jpg",
 			"title": "Let’s find out how to work Together",
-			"content": "Want to know more about Bolt's work around the globe, ground-breaking projects, and other efforts to improve the telecommunications around the world? Sign up for our email brief for hand-picked articles, news, and more."
+			"content": "Want to know more about BOLT's work around the globe, ground-breaking projects, and other efforts to improve the telecommunications around the world? Sign up for our email brief for hand-picked articles, news, and more."
 		},
 		"admin": {
-            "adminSectionHeading": {
+			"adminSectionHeading": {
 				"subtitle": "Admin Section",
 				"title": "Welcome back!",
-				"content": "You are having access to this page because you are an administrative memnber of Bolt Telecommunications. Information available to you here must be treated with high confidentiality concerns."
+				"content": "You are having access to this page because you are an administrative memnber of BOLT Telecommunications. Information available to you here must be treated with high confidentiality concerns."
 			},
 			"count": {
 				"icon": "flaticon-layers",
 				"number": "253000",
-				"title": "Number of Splicing",
+				"title": "Number of Splices",
 				"image": "assets/images/home2/offer/ftth-offer1.jpg",
 				"animation": "fadeInRight"
+			},
+			"login": {
+				"username": "bolt-admin",
+				"password": "boltTelecommunications@2022"
 			}
 		},
 		"service": {
@@ -327,16 +331,16 @@
 			"serviceSectionHeading": {
 				"subtitle": "Major Services",
 				"title": "Services We Offer",
-				"content": "We are in the fiber optic splicing business. We major on the implementation of FTTH, MDU, WTTH, FTTB, FTTC, FTTN, and FTTR Networks."
+				"content": "We are in the fibre optic splicing business. We major on the implementation of FTTH, MDU, WTTH, FTTB, FTTC, FTTN, and FTTR Networks."
 			},
 			"singleService": [
 				{
 					"icon": "flaticon-medal",
 					"image": "assets/images/home2/offer/ftth-offer1.jpg",
 					"animation": "fadeInRight",
-					"id": "fiber-to-the-home",
-					"title": "Fiber to the Home (FTTH)",
-					"description": "Fiber to the Home (FTTH) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a home, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
+					"id": "fibre-to-the-home",
+					"title": "fibre to the Home (FTTH)",
+					"description": "fibre to the Home (FTTH) is the delivery of a communications signal over optical fibre from the operator's switching equipment all the way to a home, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -347,9 +351,9 @@
 					"icon": "flaticon-promotion",
 					"image": "assets/images/home2/offer/offer-2.jpg",
 					"animation": "fadeInUp",
-					"id": "fiber-to-the-building",
-					"title": "Fiber to the Building (FTTB)",
-					"description": "Fiber to the Building (FTTB) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a building, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
+					"id": "fibre-to-the-building",
+					"title": "fibre to the Building (FTTB)",
+					"description": "fibre to the Building (FTTB) is the delivery of a communications signal over optical fibre from the operator's switching equipment all the way to a building, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -362,7 +366,7 @@
 					"animation": "fadeInLeft",
 					"id": "installation-and-design-solution",
 					"title": "Installation & Design Solution",
-					"description": "You can count on our installation and design solutions team to take care of all your cabling requirements. All of our solutions in this area are bespoke with your budget and requirement needs in mind. Whether it be Splicing Fiber optic cables, testing, tracing, troubleshooting, and fixing your network problems.  We offer a very cost effective cabling solution with your IT budget in mind, while still maintaining quality and integrity",
+					"description": "You can count on our installation and design solutions team to take care of all your cabling requirements. All of our solutions in this area are bespoke with your budget and requirement needs in mind. Whether it be Splicing fibre optic cables, testing, tracing, troubleshooting, and fixing your network problems.  We offer a very cost effective cabling solution with your IT budget in mind, while still maintaining quality and integrity",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -375,7 +379,7 @@
 					"animation": "fadeInRight",
 					"id": "multi-dwelling-units",
 					"title": "Multi Dwelling Units (MDU)",
-					"description": "Finding the ideal fiber installation solution for Multi Dwelling Units (MDU), normally apartment blocks or hotels, is a major obstacle that carriers face as the pace of Fiber to the Home (FTTH) deployments increases to meet the ever increasing consumer demand for bandwidth, but with BOLT Telecommunications Inc. you can get the best and most seamless solution in terms of cost and delivery time.",
+					"description": "Finding the ideal fibre installation solution for Multi Dwelling Units (MDU), normally apartment blocks or hotels, is a major obstacle that carriers face as the pace of fibre to the Home (FTTH) deployments increases to meet the ever increasing consumer demand for bandwidth, but with BOLT Telecommunications Inc. you can get the best and most seamless solution in terms of cost and delivery time.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -386,9 +390,9 @@
 					"icon": "flaticon-medal",
 					"image": "assets/images/home2/offer/offer-5.jpg",
 					"animation": "fadeInDown",
-					"id": "fiber-to-the-curb",
-					"title": "Fiber to the Curb (FTTC)",
-					"description": "Fiber to the Curb (FTTC) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a curb, thereby replacing existing infrastructure.",
+					"id": "fibre-to-the-curb",
+					"title": "fibre to the Curb (FTTC)",
+					"description": "fibre to the Curb (FTTC) is the delivery of a communications signal over optical fibre from the operator's switching equipment all the way to a curb, thereby replacing existing infrastructure.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -399,9 +403,9 @@
 					"icon": "flaticon-lamp",
 					"image": "assets/images/home2/offer/offer-6.jpg",
 					"animation": "fadeInRight",
-					"id": "fiber-to-the-room",
-					"title": "Fiber to the Room (FTTR)",
-					"description": "Fiber to the Room (FTTR) is the delivery of a communications signal over optical fiber from the operator's switching equipment all the way to a room, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
+					"id": "fibre-to-the-room",
+					"title": "fibre to the Room (FTTR)",
+					"description": "fibre to the Room (FTTR) is the delivery of a communications signal over optical fibre from the operator's switching equipment all the way to a room, thereby replacing existing copper infrastructure such as telephone wires and coaxial cable.",
 					"feature": [
 						"Efficiently unleash",
 						"Passion & Commitment",
@@ -883,21 +887,21 @@
 			"policyDetails": {
 				"section1": {
 					"header": "What Are Our Privacy Policies for?",
-					"paragraph1": "Bolt Telecommunications Inc. ('Bolt', 'we', 'us', 'our') values your personal data and are committed to protecting your privacy whenever you interact with us. Please read the applicable Privacy Policy, to understand our policies, processes and procedures regarding the processing of your personal data.",
-					"paragraph2": "By these Policies, we explain how your personal data is collected, used, managed and transferred by Bolt, and how you can update your personal data with us and exercise your rights in respect of the personal data provided to us."
+					"paragraph1": "BOLT Telecommunications Inc. ('BOLT', 'we', 'us', 'our') values your personal data and are committed to protecting your privacy whenever you interact with us. Please read the applicable Privacy Policy, to understand our policies, processes and procedures regarding the processing of your personal data.",
+					"paragraph2": "By these Policies, we explain how your personal data is collected, used, managed and transferred by BOLT, and how you can update your personal data with us and exercise your rights in respect of the personal data provided to us."
 				},
 				"section2": {
 					"header": "The Personal Data that We collect",
 					"paragraph1": "We collect the personal data that you provide us with, for example, by filling in an online form, registering your details or applying for a job through our website.",
-					"paragraph2": "We may also automatically collect some technical information when you visit our website such as your IP address, and information about your visit, such as the pages that you viewed. This information helps us understand visitor interests and helps us improve our website. When you visit our website, the pages that you look at, and a short text file called a cookie, are downloaded to your computer. By visiting and using our website, you agree to our use of cookies in line with Bolt’s policies."
+					"paragraph2": "We may also automatically collect some technical information when you visit our website such as your IP address, and information about your visit, such as the pages that you viewed. This information helps us understand visitor interests and helps us improve our website. When you visit our website, the pages that you look at, and a short text file called a cookie, are downloaded to your computer. By visiting and using our website, you agree to our use of cookies in line with BOLT’s policies."
 				},
 				"section3": {
 					"header": "What Purpose Do We Use Your Personal Data for?",
-					"paragraph1": "We may process your personal data to communicate with you, provide you with further information about our service solutions and how we can serve you better, respond to your requests, process your application for employment with Bolt or to fulfil our contractual obligations with you.  We may also process your personal data to comply with provisions of applicable laws."
+					"paragraph1": "We may process your personal data to communicate with you, provide you with further information about our service solutions and how we can serve you better, respond to your requests, process your application for employment with BOLT or to fulfil our contractual obligations with you.  We may also process your personal data to comply with provisions of applicable laws."
 				},
 				"section4": {
 					"header": "Who do we share your Personal Data with?",
-					"paragraph1": "We respect your privacy and we limit disclosure of your personal data to third parties. We do not sell, give or trade any personal data that we obtain from you to any third party for data-mining or marketing purposes. However, we may share your personal data with companies within Bolt or third parties such as service providers engaged by us to provide services to Bolt subject to appropriate data security and protection. We may also share your information where there is a regulatory or statutory obligation to disclose such personal data in accordance with provisions of applicable laws."
+					"paragraph1": "We respect your privacy and we limit disclosure of your personal data to third parties. We do not sell, give or trade any personal data that we obtain from you to any third party for data-mining or marketing purposes. However, we may share your personal data with companies within BOLT or third parties such as service providers engaged by us to provide services to BOLT subject to appropriate data security and protection. We may also share your information where there is a regulatory or statutory obligation to disclose such personal data in accordance with provisions of applicable laws."
 				},
 				"section5": {
 					"header": "Security And Retention of Your Personal Data",
@@ -910,17 +914,17 @@
 				},
 				"section7": {
 					"header": "Your Rights",
-					"paragraph1": "Bolt collects personal data only for the purposes identified in this Notice and such information cannot be reused for another purpose that is incompatible with the original purpose.",
+					"paragraph1": "BOLT collects personal data only for the purposes identified in this Notice and such information cannot be reused for another purpose that is incompatible with the original purpose.",
 					"paragraph2": {
-						"introduction": "You can exercise the following rights with respect to your personal data with Bolt:",
+						"introduction": "You can exercise the following rights with respect to your personal data with BOLT:",
 						"list": [
-							"Request for and access your personal data collected and stored by Bolt;",
+							"Request for and access your personal data collected and stored by BOLT;",
 							"Withdraw consent at any time;",
 							"Object to automated decision making;",
-							"Request rectification and modification of personal data kept by Bolt;",
+							"Request rectification and modification of personal data kept by BOLT;",
 							"Request for deletion of your personal data;",
 							"Be informed of and entitled to provide consent prior to the processing of personal data for purposes other than that for which the personal data were collected;",
-							"Request that Bolt restricts processing of your personal data; and",
+							"Request that BOLT restricts processing of your personal data; and",
 							"Request for information regarding any specific processing of your personal data."
 						],
 						"conclusion": "You also have the right to lodge a complaint with the Regulator regarding any issue relating to the processing of your personal data."
@@ -932,7 +936,7 @@
 				},
 				"section9": {
 					"header": "Contact and Communication",
-					"paragraph1": "If you would like further information on either Notice, please contact contacts@bolttelecommunications.com"
+					"paragraph1": "If you would like further information on either Notice, please contact info@BOLTtelecommunications.com"
 				}
 			},
 			"background": "assets/images/home2/client/client-bg2.jpg"
@@ -1190,7 +1194,7 @@
 					{
 						"icon": "far fa-envelope",
 						"title": "E-mail",
-						"contentOne": "contact@bolttelecommunications.ca"
+						"contentOne": "info@bolttelecommunications.ca"
 					}
 				]
 			},
@@ -1205,7 +1209,7 @@
 			"mainFooter": {
 				"about": {
 					"title": "About",
-					"content": "BOLT Telecommunications Inc. is an established leader in the telecommunications industry. Based in Brampton Ontario, our firm offers fiber optic services.",
+					"content": "BOLT Telecommunications Inc. is young and dynamic fibre optic infrastructure company. Based in Brampton Ontario, our firm offers fibre optic services.",
 					"social": [
 						{
 							"icon": "fa-facebook-f",

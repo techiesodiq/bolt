@@ -5,8 +5,6 @@ import {
 	Box,
 	Button,
 	Dialog,
-	DialogActions,
-	DialogContent,
 	DialogTitle,
 	Grid,
 	TextField,
@@ -16,6 +14,9 @@ import {useTheme} from "@mui/material/styles";
 import {Formik} from "formik";
 import React, {useState} from "react";
 import * as Yup from "yup";
+import {sectionData} from "./../../data/section.json";
+
+const data = sectionData.admin;
 
 const DesktopScreenModal = () => {
 	const [loading, setLoading] = useState(false);
@@ -23,21 +24,21 @@ const DesktopScreenModal = () => {
 	const [showErrorAlert, setShowErrorAlert] = useState(false);
 
 	const formikInitialValues = {
-		numberOfSplicesLabel: "",
-		numberOfSplicesValue: "",
+		username: "",
+		password: "",
 	};
 
 	const formikValidationSchema = Yup.object({
-		numberOfSplicesLabel: Yup.string().min(2).required("Required"),
-		numberOfSplicesValue: Yup.string().min(6).required("Required"),
+		username: Yup.string().min(2).required("Required"),
+		password: Yup.string().min(6).required("Required"),
 	});
 
 	const formikHandleSubmit = async (values, {resetForm}) => {
 		console.log(values);
 		setLoading(true);
 		if (
-			values.numberOfSplicesLabel === "sodiq" &&
-			values.numberOfSplicesValue === 123456
+			values.username === data.login.username &&
+			values.password === data.login.password
 		) {
 			setOpen(false);
 			setLoading(false);
@@ -59,135 +60,121 @@ const DesktopScreenModal = () => {
 						marginTop: "20px",
 					}}
 				>
-					Edit Form
+					Login
 				</DialogTitle>
-				<DialogContent>
+				<div
+					style={{
+						margin: 0,
+						padding: 0,
+						height: "40vh",
+						width: "35vw",
+						position: "relative",
+						overflowX: "hidden",
+					}}
+				>
 					<div
 						style={{
 							margin: 0,
 							padding: 0,
-							height: "40vh",
-							width: "35vw",
-							position: "relative",
-							overflowX: "hidden",
+							position: "absolute",
+							top: "50%",
+							left: "50%",
+							transform: "translate(-50%, -50%)",
+							textAlign: "center",
 						}}
 					>
-						<div
-							style={{
-								margin: 0,
-								padding: 0,
-								position: "absolute",
-								top: "50%",
-								left: "50%",
-								transform: "translate(-50%, -50%)",
-								textAlign: "center",
-							}}
+						{showErrorAlert && (
+							<Alert style={{fontSize: "11px"}} severity="error">
+								Invalid username and password
+							</Alert>
+						)}
+
+						<p style={{fontSize: "11px", lineHeight: "10px"}}>
+							<i>Please enter your username and password to login.</i>
+						</p>
+						<Formik
+							initialValues={formikInitialValues}
+							validationSchema={formikValidationSchema}
+							onSubmit={formikHandleSubmit}
 						>
-							{showErrorAlert && (
-								<Alert style={{fontSize: "11px"}} severity="error">
-									Invalid
-								</Alert>
-							)}
-
-							<p style={{fontSize: "11px", lineHeight: "10px"}}>
-								<i>Kindly edit the form below.</i>
-							</p>
-							<br />
-							<Formik
-								initialValues={formikInitialValues}
-								validationSchema={formikValidationSchema}
-								onSubmit={formikHandleSubmit}
-							>
-								{(props) => {
-									return (
-										<form onSubmit={props.handleSubmit}>
-											<Grid
-												container
-												rowSpacing={3}
-												columnSpacing={{xs: 1, sm: 2, md: 3}}
-											>
-												<Grid item xs={12}>
-													<TextField
-														id="outlined-basic"
-														label="Number of Splices (Label)*"
-														variant="outlined"
-														fullWidth
-														name="numberOfSplicesLabel"
-														onBlur={props.handleBlur}
-														onChange={props.handleChange}
-														value={props.values.numberOfSplicesLabel}
-													/>
-													{props.touched.numberOfSplicesLabel &&
-													props.errors.numberOfSplicesLabel ? (
-														<p
-															style={{
-																color: "red",
-																fontSize: "11px",
-																marginTop: 0,
-															}}
-														>
-															{props.errors.numberOfSplicesLabel}
-														</p>
-													) : null}
-												</Grid>
-												<Grid item xs={12}>
-													<TextField
-														id="outlined-basic"
-														label="Number of Splices (Value)*"
-														variant="outlined"
-														fullWidth
-														type="number"
-														name="numberOfSplicesValue"
-														onBlur={props.handleBlur}
-														onChange={props.handleChange}
-														value={props.values.numberOfSplicesValue}
-													/>
-													{props.touched.numberOfSplicesValue &&
-													props.errors.numberOfSplicesValue ? (
-														<p
-															style={{
-																color: "red",
-																fontSize: "11px",
-																marginTop: 0,
-															}}
-														>
-															{props.errors.numberOfSplicesValue}
-														</p>
-													) : null}
-												</Grid>
-
-												<Grid
-													item
-													xs={12}
-													style={{
-														display: "flex",
-														justifyContent: "center",
-														alignItems: "center",
-														marginTop: "20px",
-														marginBottom: "30px",
-													}}
-												>
-													<Button fullWidth type="submit" variant="contained">
-														{loading ? "Save..." : "Save"}
-													</Button>
-												</Grid>
+							{(props) => {
+								return (
+									<form onSubmit={props.handleSubmit}>
+										<Grid
+											container
+											rowSpacing={3}
+											columnSpacing={{xs: 1, sm: 2, md: 3}}
+										>
+											<Grid item xs={12}>
+												<TextField
+													id="outlined-basic"
+													label="Username*"
+													variant="outlined"
+													fullWidth
+													name="username"
+													onBlur={props.handleBlur}
+													onChange={props.handleChange}
+													value={props.values.username}
+												/>
+												{props.touched.username && props.errors.username ? (
+													<p
+														style={{
+															color: "red",
+															fontSize: "11px",
+															marginTop: 0,
+														}}
+													>
+														{props.errors.username}
+													</p>
+												) : null}
 											</Grid>
-										</form>
-									);
-								}}
-							</Formik>
-						</div>
+											<Grid item xs={12}>
+												<TextField
+													id="outlined-basic"
+													label="Password*"
+													variant="outlined"
+													fullWidth
+													type="password"
+													name="password"
+													onBlur={props.handleBlur}
+													onChange={props.handleChange}
+													value={props.values.password}
+												/>
+												{props.touched.password && props.errors.password ? (
+													<p
+														style={{
+															color: "red",
+															fontSize: "11px",
+															marginTop: 0,
+														}}
+													>
+														{props.errors.password}
+													</p>
+												) : null}
+											</Grid>
+
+											<Grid
+												item
+												xs={12}
+												style={{
+													display: "flex",
+													justifyContent: "center",
+													alignItems: "center",
+													marginTop: "20px",
+													marginBottom: "30px",
+												}}
+											>
+												<Button fullWidth type="submit" variant="contained">
+													{loading ? "Logging in..." : "Login"}
+												</Button>
+											</Grid>
+										</Grid>
+									</form>
+								);
+							}}
+						</Formik>
 					</div>
-				</DialogContent>
-				<DialogActions>
-					<Button
-						onClick={() => {
-							setOpen(false);
-						}}
-					>
-						Cancel
-					</Button>
-				</DialogActions>
+				</div>
 			</Dialog>
 		</Box>
 	);
@@ -211,7 +198,10 @@ const OtherScreensModal = () => {
 	const formikHandleSubmit = async (values, {resetForm}) => {
 		console.log(values);
 		setLoading(true);
-		if (values.username === "sodiq" && values.password === "akanmu") {
+		if (
+			values.username === data.login.username &&
+			values.password === data.login.password
+		) {
 			setOpen(false);
 			setLoading(false);
 		} else {
@@ -351,7 +341,7 @@ const OtherScreensModal = () => {
 	);
 };
 
-const AdminModal = (formikHandleSubmit) => {
+const LoginModal = (formikHandleSubmit) => {
 	const theme = useTheme();
 	const isMatch = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -366,33 +356,4 @@ const AdminModal = (formikHandleSubmit) => {
 	);
 };
 
-export default AdminModal;
-
-{
-	/* <form>
-				<div>
-					<button>X</button>
-				</div>
-				<header>
-					<h6>Kindly edit the form below</h6>
-				</header>
-				<main>
-					<div className="form-group">
-						<input placeholder="Title" />
-					</div>
-					<div className="form-group">
-						<input placeholder="Number of Splicing" />
-					</div>
-				</main>
-				<footer>
-					<button
-						onClick={() => {
-							closeModal(false);
-						}}
-						id="cancelBtn"
-					>
-						Cancel
-					</button>
-				</footer>
-			</form> */
-}
+export default LoginModal;

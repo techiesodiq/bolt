@@ -4,9 +4,10 @@ import React, {useEffect} from "react";
 import ScrollTop from "../components/global-components/BackToTop";
 import Footer from "../components/global-components/Footer";
 import Layouts from "../components/global-components/Layouts";
+import Admin from "../components/section-components/Admin";
 import Connect from "../components/section-components/Connect";
 import HeaderV3 from "../components/section-components/Header-v3";
-import Admin from "../components/section-components/Admin";
+import LoginModal from "../components/section-components/LoginModal";
 import {sectionData} from "./../data/section.json";
 
 const ServicePage = () => {
@@ -22,6 +23,7 @@ const ServicePage = () => {
 					title={data.admin.title}
 					pageName={data.admin.pageName}
 				/>
+				<LoginModal />
 				<Admin />
 				<Connect />
 				<Footer />
